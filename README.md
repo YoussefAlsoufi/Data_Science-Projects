@@ -30,5 +30,21 @@ It is known that CNN help in running neural networks directly on images and are 
 
 [Kaggle/YoussefAlsoufi/GTSRB classification-CNN with external camera](https://www.kaggle.com/code/youssefalsoufi/gtsrb-classification-cnn-with-external-camera).
 
+## 4- CNN for Image Classification
+<p align="center">
+<img src="classification.PNG" alt="drawing" style="width:600px;"/>
+</p>
+A collection of images that represent categories for areas like 'Sea, Mountain, Forest, Street, Buildings' and so on. The data had different dimensions, therefor, I had to resize all of the images to (100, 100, 3) before sending them ti the training proces. I have used CNN for training data with (optimizer="adam",loss="sparse_categorical_crossentropy",metrics=["accuracy"] as Hyperparameters tunning. All details in this link:
+
+[Kaggle/YoussefAlsoufi/CNN-for-Image-Classification](https://www.kaggle.com/code/youssefalsoufi/cnn-for-image-classification).
+
+## 5- Simple Classification MLP using the Sequential API
+<p align="center">
+<img src="cloth_image1.png" alt="drawing" style="width:600px;"/>
+</p>
+Simple Classification MLP using the Sequential API with Fashion_MINST dataset. The data content 60,000 training examples , 10,000 testing examples, 10 classes. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. The training and test data sets have 785 columns.
+You can check the code here:
+
+[Kaggle/YoussefAlsoufi/simple-classification-mlp-using-the-sequential-api](https://www.kaggle.com/code/youssefalsoufi/simple-classification-mlp-using-the-sequential-api).
 
  
